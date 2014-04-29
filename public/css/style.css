@@ -1,0 +1,95 @@
+html {
+  background: url('/images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.center-screen {
+  position: absolute;
+  text-align: center;
+  height: 80%;
+  margin: auto;
+  left: 0; top: 0; right: 0; bottom: 0;
+  transition: opacity 2s linear;
+}
+
+.profile-picture {
+  background: url('/images/profile.jpg') no-repeat center;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  margin: auto;
+}
+
+.name {
+  margin: auto;
+  padding-top: 5px;
+  text-align: center;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+.username {
+  margin: auto;
+  padding-top: 2px;
+  text-align: center;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+.bio {
+  margin: auto;
+  width: 350px;
+  padding-top: 10px;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #ecf0f1;
+}
+
+.networks-bar {
+  padding-top: 20px;
+  display: inline-block;
+  /*opacity:0.9;*/
+}
+
+.github {
+  width: 60px;
+  height: 60px;
+  background: url('/images/github.png') no-repeat center;
+  background-size: cover;
+  display: inline-block;
+}
+
+.twitter {
+  width: 60px;
+  height: 60px;
+  background: url('/images/twitter.png') no-repeat center;
+  background-size: cover;
+  display: inline-block;
+}
+
+.linkedin {
+  width: 60px;
+  height: 60px;
+  background: url('/images/linkedin.png') no-repeat center;
+  background-size: cover;
+  display: inline-block;
+}
+
+.email {
+  width: 60px;
+  height: 60px;
+  background: url('/images/email.png') no-repeat center;
+  background-size: cover;
+  display: inline-block;
+}
